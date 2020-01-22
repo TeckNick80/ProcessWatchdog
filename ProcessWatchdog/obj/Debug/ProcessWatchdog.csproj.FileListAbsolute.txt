@@ -1,0 +1,9 @@
+C:\Users\d.rogosch\source\repos\ProcessWatchdog\ProcessWatchdog\bin\Debug\ProcessWatchdog.exe.config
+C:\Users\d.rogosch\source\repos\ProcessWatchdog\ProcessWatchdog\bin\Debug\ProcessWatchdog.exe
+C:\Users\d.rogosch\source\repos\ProcessWatchdog\ProcessWatchdog\bin\Debug\ProcessWatchdog.pdb
+C:\Users\d.rogosch\source\repos\ProcessWatchdog\ProcessWatchdog\obj\Debug\ProcessWatchdog.csprojAssemblyReference.cache
+C:\Users\d.rogosch\source\repos\ProcessWatchdog\ProcessWatchdog\obj\Debug\ProcessWatchdog.Form1.resources
+C:\Users\d.rogosch\source\repos\ProcessWatchdog\ProcessWatchdog\obj\Debug\ProcessWatchdog.Properties.Resources.resources
+C:\Users\d.rogosch\source\repos\ProcessWatchdog\ProcessWatchdog\obj\Debug\ProcessWatchdog.csproj.GenerateResource.cache
+C:\Users\d.rogosch\source\repos\ProcessWatchdog\ProcessWatchdog\obj\Debug\ProcessWatchdog.exe
+C:\Users\d.rogosch\source\repos\ProcessWatchdog\ProcessWatchdog\obj\Debug\ProcessWatchdog.pdb

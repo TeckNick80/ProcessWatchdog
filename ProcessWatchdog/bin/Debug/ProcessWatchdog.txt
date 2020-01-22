@@ -1,0 +1,3 @@
+﻿# Watchdog config
+Processname = Ollydbg
+Path = C:\Wechseldatenträger\Ollydbg\Ollydbg.exe
