@@ -20,6 +20,7 @@ namespace ProcessWatchdog {
         private void watchdogThread() {
             String processName = null;
             String programPath = null;
+            String programArgs = null;
             try {
                 using (StreamReader sr = new StreamReader("ProcessWatchdog.txt")) {
                     String line;
@@ -32,6 +33,10 @@ namespace ProcessWatchdog {
                             if (line.StartsWith("Path")) {
                                 String[] pathParts = line.Split('=');
                                 programPath = pathParts[1].Trim();
+                            }
+                            if (line.StartsWith("Args")) {
+                                String[] argParts = line.Split('=');
+                                programArgs = argParts[1].Trim();
                             }
                         }
                     }
@@ -47,7 +52,12 @@ namespace ProcessWatchdog {
                             }
                         }
                         if (!isRunning) {
-                            Process.Start(programPath);
+                            if (programArgs != null) {
+                                Process.Start(programPath, programArgs);
+                            }
+                            else { 
+                                Process.Start(programPath);
+                            }
                         }
                     }
                 }
